@@ -229,6 +229,7 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 10px 18px 0 18px;
+  border-bottom: solid 2px #6380BA;
   &.align-left {
     justify-content: flex-start;
   }
@@ -297,9 +298,9 @@ export default {
 
 .vc-weekday {
   text-align: center;
-  color: var(--gray-500);
+  color: var(--gray-900);
   font-size: var(--text-sm);
-  font-weight: var(--font-bold);
+  font-weight: var(--font-normal);
   line-height: 14px;
   padding-top: 4px;
   padding-bottom: 8px;
